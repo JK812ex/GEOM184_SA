@@ -8,5 +8,5 @@
 
 # UI.R Script ----
 div(class="outer",
-    leafletOutput("map", height="calc(100hb - 70px)")
+    leafletOutput("map", height="calc(100hv - 70px)")
     )
