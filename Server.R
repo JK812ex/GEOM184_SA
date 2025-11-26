@@ -6,6 +6,9 @@
 ## code by Jack Kane (jk812@exeter.ac.uk) ##
 #################################################################
 
+# Defines Server
+server <-function(input, output, session){
+
 # Render leaflet map ----
 # Leaflet map output
 output$map <- renderLeaflet({
@@ -75,3 +78,4 @@ observe({
                   "<br><b>Cluster ID:</b>", cluster),
   group = "Clusters")
  })
+}
